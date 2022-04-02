@@ -7,7 +7,7 @@ function App(props) {
       <header className="App-header">
        Hello, {props.name}
 
-       <Message />
+       <Message testing={'testing'} />
        
       </header>
     </div>
